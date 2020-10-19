@@ -1,6 +1,6 @@
 //Maya ASCII 2020 scene
 //Name: FlourSackAnimation.ma
-//Last modified: Mon, Oct 19, 2020 12:38:35 PM
+//Last modified: Mon, Oct 19, 2020 12:39:22 PM
 //Codeset: 1252
 requires maya "2020";
 requires "stereoCamera" "10.0";
@@ -13,17 +13,17 @@ fileInfo "version" "2020";
 fileInfo "cutIdentifier" "201911140446-42a737a01c";
 fileInfo "osv" "Microsoft Windows 10 Technical Preview  (Build 19041)\n";
 fileInfo "license" "education";
-fileInfo "UUID" "360869B2-4363-819C-0DB7-848B01528525";
+fileInfo "UUID" "9A04E9B2-4A9C-5905-5374-09AE8F90194C";
 createNode transform -s -n "persp";
 	rename -uid "23F000E8-4DEC-A715-56AF-9EAEA44F1F8A";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 6.0602078583446115 14.45691566732631 44.912903375585294 ;
+	setAttr ".t" -type "double3" 6.9660032934098393 17.434919298054965 57.247490192914761 ;
 	setAttr ".r" -type "double3" -13.538352730686624 364.19999999990233 -9.9659972922816595e-17 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "8CD51435-4644-F214-8CFF-03984AB0B55E";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 50;
-	setAttr ".coi" 45.79120993727004;
+	setAttr ".coi" 58.512491435179612;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
